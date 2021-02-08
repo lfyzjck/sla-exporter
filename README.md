@@ -141,7 +141,7 @@ example:
 example:
 
 ```yaml
-- name: bigdata-doris-live
+- name: doris
   module: doris
   module_config:
     host: fe1,fe2,fe3
