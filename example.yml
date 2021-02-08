@@ -1,0 +1,18 @@
+services:
+  - name: bigdata-stream-book
+    module: http_2xx
+    interval: 3
+    targets:
+      - https://baidu.com
+
+  - name: script_nslookup
+    module: script
+    interval: 5
+    targets:
+      - nslookup google.com
+
+  - name: tcp_demo
+    module: tcp
+    interval: 10
+    targets:
+      - baidu.com:80
