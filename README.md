@@ -53,9 +53,9 @@ example:
       headers:
         "Content-Type": "application/json"
       body: >
-        {"head":{"userId":0.0,"device":2.0,"deviceId":"-1","appVersion":"1.0.0","screenWidth":851.0,"screenHeight":393.0,"osVersion":"10","manufacturer":"Yuanfudao","model":"YuanTiKu/4.17.0"},"entries":[{"productId":"000","timestamp":"1611560007","url":"/mock/test","net":0.0,"keyValues":[{"key":"subject","value":"2"},{"key":"userid","value":"0"},{"key":"type","value":"0"},{"key":"userAgent","value":"Mozilla/5.0 (Linux; Android 10; Redmi K20 Pro Premium Edition Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045410 Mobile Safari/537.36 Zebra YuanTiKu/4.17.0"},{"key":"hostName","value":"localhost"}]}]}
+        {}
   targets:
-    - http://frog.yuanfudao.biz/statV2/plain
+    - http://xxx.xxxx.xxx/stat
 ```
 
 ### script
